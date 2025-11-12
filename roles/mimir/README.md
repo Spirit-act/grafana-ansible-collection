@@ -88,6 +88,7 @@ You can also run commands like `molecule destroy`, `molecule prepare`, and `mole
 | mimir_alertmanager.external_url         | str  | http://localhost:9009/alertmanager     | Used to specify the external URL or address at which the Mimir Alertmanager component of the Grafana Agent can be accessed.                                          |
 | mimir_memberlist.join_members           | []   | List of members for the Mimir cluster  |
 | mimir_targets                           | []   | [all,alertmanager,overrides-exporter]  | Used to specify the list of Mimir components | 
+| mimir_multitenancy                      | bool | true                                   | Enable or disable the multitenancy feature in Mimir                                                                                                                  |
 
 ## **Additional Config Variables for `/etc/mimir/config.yml`**
 
